@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="employees_schema.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<employees>
+    <employee1>
+        <personal-information>
+            <first-name>Hemangshu</first-name>
+            <last-name>Dey</last-name>
+            <date-of-birth>2001-04-19</date-of-birth>
+            <gender>Male</gender>
+        </personal-information>
+        <employment-information>
+            <position>Fresher Intern</position>
+            <salary>30000</salary>
+        </employment-information>
+        <contact-information>
+            <email>hemangshu1904@gmail.com</email>
+            <phone-number>6296007139</phone-number>
+        </contact-information>
+    </employee1>
+    <employee2>
+        <personal-information>
+            <first-name>Misti</first-name>
+            <last-name>Roy</last-name>
+            <date-of-birth>2002-05-23</date-of-birth>
+            <gender>Female</gender>
+        </personal-information>
+        <employment-information>
+            <position>Assiciate Developer</position>
+            <salary>45000</salary>
+        </employment-information>
+        <contact-information>
+            <email>misti@gmail.com</email>
+            <phone-number>4869702548</phone-number>
+        </contact-information>
+    </employee2>
+    <employee3>
+        <personal-information>
+            <first-name>Rajive</first-name>
+            <last-name>Sinha</last-name>
+            <date-of-birth>1999-08-10</date-of-birth>
+            <gender>Male</gender>
+        </personal-information>
+        <employment-information>
+            <position>Manager</position>
+            <salary>80000</salary>
+        </employment-information>
+        <contact-information>
+            <email>singarajive@gmail.com</email>
+            <phone-number>8452107329</phone-number>
+        </contact-information>
+    </employee3>
+</employees>

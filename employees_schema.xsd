@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="employees">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="employee1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="personal-information">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="first-name" type="xs:string" />
+                    <xs:element name="last-name" type="xs:string" />
+                    <xs:element name="date-of-birth" type="xs:date" />
+                    <xs:element name="gender">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration value="Male" />
+                          <xs:enumeration value="Female" />
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="employment-information">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="position" type="xs:string" />
+                    <xs:element name="salary" type="xs:unsignedShort" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="contact-information">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="email">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:pattern value="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" />
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="phone-number" type="xs:unsignedLong" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="employee2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="personal-information">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="first-name" type="xs:string" />
+                    <xs:element name="last-name" type="xs:string" />
+                    <xs:element name="date-of-birth" type="xs:date" />
+                    <xs:element name="gender">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration value="Male" />
+                          <xs:enumeration value="Female" />
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="employment-information">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="position" type="xs:string" />
+                    <xs:element name="salary" type="xs:unsignedShort" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="contact-information">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="email">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:pattern value="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" />
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="phone-number" type="xs:unsignedLong" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="employee3">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="personal-information">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="first-name" type="xs:string" />
+                    <xs:element name="last-name" type="xs:string" />
+                    <xs:element name="date-of-birth" type="xs:date" />
+                    <xs:element name="gender">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration value="Male" />
+                          <xs:enumeration value="Female" />
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="employment-information">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="position" type="xs:string" />
+                    <xs:element name="salary" type="xs:unsignedInt" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="contact-information">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="email">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:pattern value="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" />
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="phone-number" type="xs:unsignedLong" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
